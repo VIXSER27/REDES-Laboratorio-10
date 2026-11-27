@@ -1,0 +1,6 @@
+services:
+  api:
+    image: localhost:5000/pagosya-api:${TAG}
+    ports:
+      - "8080:8000"
+    init: true
