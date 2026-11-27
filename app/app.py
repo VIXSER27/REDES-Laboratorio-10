@@ -14,4 +14,4 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(f"PagosYA api {VERSION}".encode())
 
-HTTPServer(("0.0.0.0", 9000), Handler).serve_forever()
+HTTPServer(("0.0.0.0", 8000), Handler).serve_forever()
